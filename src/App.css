@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+*{
+    background: linear-gradient(-45deg, red,beige);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	
+
+}
+.App {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYSMqFaaQvdd9JpWtDR2AV5VBg8NUhTf70dA&usqp=CAU");
+    background-size: cover;
+    width: 600px;
+    height: 320px;
+    border: 10px solid #131c1e;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+.quote small {
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
+.btn {
+	display: block;
+	border: 2px solid burlywood;
+	background:transparent;
+	padding: 10px 15px;
+	color: mediumaquamarine;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btn:hover{
+	background-color: crimson;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+h1{
+   
+        font-size: 70px;
+        font-weight: 600; 
+    background-color: #131c1e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-clip: text;
+        -webkit-background-clip: text;
+      text-align: center;
+}
+h2{
+     
+    background-color: #131c1e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-clip: text;
+        -webkit-background-clip: text;
+      text-align: center;
+}
+#logo{
+    position: absolute;
+    height: 50px;
+    align-items: center;
+
+}
